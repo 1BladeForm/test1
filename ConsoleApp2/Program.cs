@@ -45,7 +45,7 @@ class Program
                             }
                             result = Math.Sqrt(operand1);
                             break;
-                        case '%':
+                        case '%': // 123
                             result = operand1 * (operand2 / 100.0);
                             break;
                         default:
