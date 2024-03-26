@@ -45,6 +45,9 @@ class Program
                             }
                             result = Math.Sqrt(operand1);
                             break;
+                        case '%':
+                            result = operand1 * (operand2 / 100.0);
+                            break;
                         default:
                             throw new FormatException("Некорректный оператор");
                     }
